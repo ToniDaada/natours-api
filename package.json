@@ -1,0 +1,23 @@
+{
+  "name": "natours-api",
+  "version": "1.0.0",
+  "description": "Learning node express and mogoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniDaada/natours-api.git"
+  },
+  "author": "Toni Daada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToniDaada/natours-api/issues"
+  },
+  "homepage": "https://github.com/ToniDaada/natours-api#readme",
+  "dependencies": {
+    "express": "^4.22.1",
+    "nodemon": "^3.1.14"
+  }
+}
