@@ -3,6 +3,9 @@ const tourController = require('../controller/tourController');
 
 const router = express.Router();
 
+// I only want this middleware to run on the id param
+router.param('id', tourController.checkID);
+
 router
   .route('/')
   .get(tourController.getAllTours)
